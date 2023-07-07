@@ -1,0 +1,38 @@
+* {
+  background: #222222;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+marquee {
+  color: rgb(138, 204, 38);
+  font-size: 80px;
+} 
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+  margin: 9rem 0px;
+  border: 1px solid #ffffff;
+  padding: 0.8rem;
+  border-radius: 1rem;
+} 
+
+.card__title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+} 
+
+.card__image > img {
+  width: 200px;
+} 
+
+.text-justify {
+  text-align: justify;
+}
